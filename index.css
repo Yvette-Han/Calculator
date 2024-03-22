@@ -15,7 +15,33 @@ html.body{
     align-items: center;
     justify-self: center;
     align-self: center;
-    background-color: rgb(20, 152, 185);
+    background-color: rgb(168, 216, 227);
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttonSign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(212, 250, 175);
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttonR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(124, 218, 165);
     width: 60px;
     height: 60px;
     cursor: pointer;
@@ -24,9 +50,9 @@ html.body{
 
 #calculator{
     font-family: "Noto Sans", sans-serif;
-    background-color: rgb(187, 223, 255);
+    background-color: rgb(65, 103, 95);
     width: 350px;
-    border: #edb7ff 2pt solid;
+    border: #2e524f 2pt solid;
     display: grid;
     grid-template-areas: 
     "result result result result"
@@ -42,10 +68,10 @@ html.body{
     font-size: 25px;
 }
 #result{
-    background-color: azure;
+    background-color: rgb(221, 255, 255);
     grid-area: result;
     width: 100%;
-    height: 60px;
+    height: 55px;
     border-radius: 15px;
 }
 #equal{
